@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ _cssPath }}/main{% if not _dev %}.min{% endif %}.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700:latin">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+    {# Picturefill for IE11 & Android 4.4.4 #}
+    <script>
+        document.createElement("picture");
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/picturefill/3.0.3/picturefill.js" async></script>
+</head>
+<body>
+    {% include "../components/cookie-law.nunj" %}
+
+    {# Main content of the page #}
+    <main>
+        <div class="container">
+            {% block content %}{% endblock %}
+        </div>
+    </main>
+
+    {# Scripts #}
+    <script>
+        var config = {};
+    </script>
+    {% if _dev %}
+        <script src="{{ _jsPath }}/app.js" async></script>
+    {% else %}
+        <script src="{{ _jsPath }}/app.min.js" async></script>
+    {% endif %}
+</body>
+</html>

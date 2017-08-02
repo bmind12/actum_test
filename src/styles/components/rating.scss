@@ -1,0 +1,14 @@
+.rating {
+    &__item {
+        width: 13px;
+        height: 12px;
+
+        &--gold {
+            fill: #e9a637;
+        }
+
+        &--gray {
+            fill: rgba(68,68,68,0.2);
+        }
+    }
+}

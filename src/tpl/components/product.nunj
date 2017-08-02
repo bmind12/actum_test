@@ -1,0 +1,34 @@
+<article class="product">
+    <picture class="product__image">
+        <source media="(min-width: 992px)" srcset="http://satyr.io/155x139">
+        <source media="(min-width: 768px)" srcset="http://satyr.io/67x60">
+        <img src="http://satyr.io/78x70" alt="Product image">
+    </picture>
+    <span class="product__title-desc">Nutrition supplement</span>
+    <h1 class="product__title">Lecithin FORTE 1325 mg (gift package)</h1>
+    <div class="product__stats">
+        <span class="product__status">In stock</span>
+        <div class="product__rating rating">
+            {{ svg(name = "rating", className = "product__rating rating__item", svgClass = "rating__item rating__item--gold") }}
+            {{ svg(name = "rating", className = "product__rating rating__item", svgClass = "rating__item rating__item--gold") }}
+            {{ svg(name = "rating", className = "product__rating rating__item", svgClass = "rating__item rating__item--gold") }}
+            {{ svg(name = "rating", className = "product__rating rating__item", svgClass = "rating__item rating__item--gold") }}
+            {{ svg(name = "rating", className = "product__rating rating__item", svgClass = "rating__item rating__item--gray") }}
+        </div>
+    </div>
+    <div class="product__desc">Obsahuje kyselinu linolovou přispívající k udržení správné hladiny cholesterolu v krvi.</div>
+    <div class="product__buttom">
+        <div class="product__price product-price">
+            <span class="product-price__text">from</span>
+            <span class="product-price__new">259 Kč</span>
+            <span class="product-price__old">359 Kč</span>
+            <span class="product-price__save">25% Off</span>
+        </div>
+        <div class="product__add btn-add">
+            <a href="#0">
+                {{ svg(name = "cart", className = "btn-add__cart", svgClass = "btn-add__cart") }}
+                <span class="btn-add__text"></span>
+            </a>
+        </div>
+    </div>
+</article>

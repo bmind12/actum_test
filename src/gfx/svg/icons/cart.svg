@@ -1,0 +1,23 @@
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="product1" transform="translate(-1057.000000, -567.000000)" fill="#FFFFFF">
+            <g id="content" transform="translate(0.000000, 249.000000)">
+                <g id="header">
+                    <g id="rightBlock" transform="translate(460.000000, 75.000000)">
+                        <g id="buyOptions" transform="translate(0.000000, 220.000000)">
+                            <g id="buttons" transform="translate(560.000000, 12.000000)">
+                                <g id="content" transform="translate(37.000000, 6.000000)">
+                                    <g id="shopping-cart" transform="translate(0.075255, 5.000000)">
+                                        <g id="Shape">
+                                            <path d="M3.6,9.6 C2.94,9.6 2.4,10.14 2.4,10.8 C2.4,11.46 2.94,12 3.6,12 C4.26,12 4.8,11.46 4.8,10.8 C4.8,10.14 4.26,9.6 3.6,9.6 Z M0,0 L0,1.2 L1.2,1.2 L3.36,5.76 L2.52,7.2 C2.46,7.38 2.4,7.62 2.4,7.8 C2.4,8.46 2.94,9 3.6,9 L10.8,9 L10.8,7.8 L3.84,7.8 C3.78,7.8 3.72,7.74 3.72,7.68 L3.72,7.61997647 L4.26,6.59997647 L8.7,6.59997647 C9.18,6.59997647 9.54,6.35997647 9.72,5.99997647 L11.88,2.1 C12,1.98 12,1.92 12,1.8 C12,1.44 11.76,1.2 11.4,1.2 L2.52,1.2 L1.98,0 L0,0 Z M9.6,9.6 C8.94,9.6 8.4,10.14 8.4,10.8 C8.4,11.46 8.94,12 9.6,12 C10.26,12 10.8,11.46 10.8,10.8 C10.8,10.14 10.26,9.6 9.6,9.6 Z"></path>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
