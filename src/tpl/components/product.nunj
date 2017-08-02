@@ -18,17 +18,23 @@
     </div>
     <div class="product__desc">Obsahuje kyselinu linolovou přispívající k udržení správné hladiny cholesterolu v krvi.</div>
     <div class="product__buttom">
-        <div class="product__price product-price">
-            <span class="product-price__text">from</span>
-            <span class="product-price__new">259 Kč</span>
-            <span class="product-price__old">359 Kč</span>
-            <span class="product-price__save">25% Off</span>
+        <div class="product__price price-product">
+            <span class="price-product__text">from</span>
+            <span class="price-product__new">259 Kč</span>
+            <span class="price-product__old">359 Kč</span>
+            <span class="price-product__save">25% Off</span>
         </div>
         <div class="product__add btn-add">
             <a href="#0">
                 {{ svg(name = "cart", className = "btn-add__cart", svgClass = "btn-add__cart") }}
                 <span class="btn-add__text"></span>
             </a>
+        </div>
+    </div>
+    <div class="product__label label-product">
+        <div class="label-product__text">Up to</div>
+        <div class="label-product__number-wrapper">
+            <div class="label-product__number">25%</div>
         </div>
     </div>
 </article>
