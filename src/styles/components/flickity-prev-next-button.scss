@@ -1,0 +1,44 @@
+.flickity-prev-next-button {
+    position: absolute;
+    top: 9px;
+    width: 27px;
+    height: 23px;
+    background: transparent;
+    border: none;
+
+    @include media-breakpoint-up(md) {
+        display: none;
+    }
+
+    @include media-breakpoint-up(lg) {
+        display: block;
+        width: 35px;
+        height: 23px;
+
+        &:disabled .arrow {
+            fill: #ebeae7;
+        }
+    }
+}
+
+.flickity-prev-next-button .arrow {
+    fill: #52514f;
+}
+
+.flickity-prev-next-button.previous {
+    left: 20px;
+
+    @include media-breakpoint-up(lg) {
+        top: 50%;
+        left: -30px;
+    }
+}
+
+.flickity-prev-next-button.next {
+    right: 20px;
+
+    @include media-breakpoint-up(lg) {
+        top: 50%;
+        right: -30px;
+    }
+}

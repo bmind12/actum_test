@@ -11,9 +11,11 @@ import configureStore from './store/configureStore';
 import cookieLaw from './components/cookie-law';
 import Timer from './components/Timer';
 import PlusOne from './components/plus-one/PlusOne';
+import carousel from './components/carousel';
 
 const app = (config) => {
     init(cookieLaw, document.getElementById('cookie-law'));
+    init(carousel, document.querySelector('.carousel'));
 
     const store = configureStore(config);
     render(Timer, document.getElementById('timer'), { from: 100 });

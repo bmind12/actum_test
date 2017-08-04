@@ -1,13 +1,13 @@
-<article class="product">
+<article class="product {{ "product--carousel" if data.carousel }}">
     <picture class="product__image">
         <source media="(min-width: 992px)" srcset="http://satyr.io/155x139">
         <source media="(min-width: 768px)" srcset="http://satyr.io/67x60">
         <img src="http://satyr.io/78x70" alt="Product image">
     </picture>
-    <span class="product__title-desc">Nutrition supplement</span>
-    <h1 class="product__title">Lecithin FORTE 1325 mg (gift package)</h1>
+    <span class="product__title-desc {{ "product__title-desc--carousel" if data.carousel }}">Nutrition supplement</span>
+    <h1 class="product__title  {{ "product__title--carousel" if data.carousel }}">Lecithin FORTE 1325 mg (gift package)</h1>
     <div class="product__stats">
-        <span class="product__status">In stock</span>
+        <span class="product__status product__status--{{ product.status }}">{{ product.statusName }}</span>
         <div class="product__rating rating">
             {{ svg(name = "rating", className = "product__rating rating__item", svgClass = "rating__item rating__item--gold") }}
             {{ svg(name = "rating", className = "product__rating rating__item", svgClass = "rating__item rating__item--gold") }}

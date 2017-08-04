@@ -1,0 +1,12 @@
+.carousel {
+    width: 100%;
+    overflow: hidden;
+
+    @include media-breakpoint-up(md) {
+        width: 733px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        width: 100%;
+    }
+}

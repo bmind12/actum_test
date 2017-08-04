@@ -3,10 +3,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-	height: 34px;
-	width: 88px;
-	border: 1px solid #eeeeee;
-	border-radius: 4px;
+    height: 34px;
+    width: 88px;
+    border: 1px solid #eee;
+    border-radius: 4px;
     background: linear-gradient(180deg, #ff9543 0%, #ff6f00 100%);
 
     @include media-breakpoint-up(md) {
@@ -19,8 +19,7 @@
 
     &__text {
         padding-left: 17px;
-
-        color: #ffffff;
+        color: #fff;
         font-family: "Open Sans", sans-serif;
         font-size: 16px;
         line-height: 21px;
@@ -29,15 +28,14 @@
             content: "Add";
 
             @include media-breakpoint-up(md) {
-                    content: 'Add to cart';
-                }
+                content: 'Add to cart';
+            }
         }
     }
 
     &__cart {
         position: relative;
         left: 5px;
-
         width: 12px;
         height: 12px;
     }

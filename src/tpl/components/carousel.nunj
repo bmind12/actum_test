@@ -1,0 +1,41 @@
+{% set data = {
+    products: [
+        {
+            status: 'available',
+            statusName: 'In stock'
+        },
+        {
+            status: 'away',
+            statusName: 'On a way'
+        },
+        {
+            status: 'out',
+            statusName: 'Out of stock'
+        },
+        {
+            status: 'available',
+            statusName: 'In stock'
+        },
+        {
+            status: 'available',
+            statusName: 'In stock'
+        },
+        {
+            status: 'available',
+            statusName: 'In stock'
+        }
+    ],
+
+    carousel: true
+}%}
+
+<div class="favourite-products">
+    <h1 class="favourite-products__title">
+        Favourite products
+    </h1>
+    <div class="carousel">
+        {% for product in data.products %}
+            {% include 'components/product.nunj' %}
+        {% endfor %}
+    </div>
+</div>
